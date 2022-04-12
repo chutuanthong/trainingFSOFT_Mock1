@@ -1,0 +1,7 @@
+const responseTemp = (httpStatus, mess, data = null) => ({
+  status: httpStatus,
+  message: mess,
+  data,
+});
+
+module.exports = responseTemp;
